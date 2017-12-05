@@ -2,12 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-some-page-child',
-  templateUrl: './some-page-child.component.html',
-  styleUrls: ['./some-page-child.component.css']
+  templateUrl: './some-page-child.component.html'
 })
 export class SomePageChildComponent {
 
-  private showLink;
+  public showLink;
 
   constructor() { }
 
